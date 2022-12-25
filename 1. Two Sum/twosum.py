@@ -6,6 +6,8 @@ You may assume that each input would have exactly one solution, and you may not 
 
 You can return the answer in any order.
 """
+
+
 def two_sum(nums, target):
     hash_table = dict([(nums[i], i) for i in range(len(nums))])
     for i in range(len(nums)):
