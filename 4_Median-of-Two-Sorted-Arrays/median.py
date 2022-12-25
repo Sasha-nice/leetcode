@@ -6,6 +6,7 @@ Given two sorted arrays nums1 and nums2 of size m and n respectively, return the
 Submission beats 99.84% runtime.
 """
 
+
 def find_median_sorted_arrays(nums1, nums2):
     len_1 = len(nums1)
     len_2 = len(nums2)
